@@ -9,6 +9,7 @@ img {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	width: 100%;
+	grid-column: 1/2;
 	/*Please leave this line.*/
 }
 
