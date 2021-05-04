@@ -16,14 +16,22 @@ img {
 main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column: 1/3;
 }
 
 figure {
 	display: grid;
-	grid-template-columns: 2fr, 1fr;
+	grid-template-columns: 2fr 1fr;
 	grid-column: 1/3;
-	grid-column-gap: 5%;
+	grid-column-gap: 3%;
+}
+
+figcaption {
+	font-style: italic;
+	padding-top: 1em;
+	text-align: left;
+	background-color: #f0f8ff;
+	font-size: 1.5em;
+	grid-column: 2/3;
 }
 
 header {
@@ -38,14 +46,14 @@ header {
 
 h1 {
 	text-align: left;
-	color: #f0f8ff;
+	color: #5f9ea0;
 	font-family: serif;
 	font-size: 3em;
 }
 
 h2 {
 	text-align: left;
-	color: #f0f8ff;
+	color: #5f9ea0;
 	font-size: 2em;
 	font-family: serif;
 	font-style: italic;
@@ -68,15 +76,6 @@ section {
 	padding-right: 1em;
 	padding-left: 1em;
 	padding-bottom: 1em;
-}
-
-figcaption {
-	font-style: italic;
-	text-align: left;
-	background-color: #f0f8ff;
-	font-size: 1.5em;
-	padding-top: 1em;
-	grid-column: 2/3;
 }
 
 
