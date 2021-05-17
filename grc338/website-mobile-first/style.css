@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+
+img {
+	width: 100%;
+	padding top: 1.5em;
+	padding bottom: 1.5em;
+	padding left: 1em;
+	padding right: 1em;
+}
+
+body {
+	background-color: #F3EEDD;
+}
+
+nav ul {
+	padding: 0.5em;
+	word-spacing: 1em;
+}
+
+nav ul li {
+	font-family: meno-banner, serif;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 2em;
+	display: inline;
+	list-style-type: none;
+	color: #7A8B6F
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #7A8B6F
+}
+
+body {
+	padding: 1em;
+	font-family: font-family: minerva-modern, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+h1 {
+	width: 70%;
+}
+
+h2 {
+	font-family: meno-banner, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3em;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: #7A8B6F;
+}
+
+h3 {
+	font-family: meno-banner, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5em;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-family: minerva-modern, sans-serif;
+	font-weight: 900;
+	font-style: bold;
+	font-size: 1.25em;
+}
+
+p {
+	font-family: minerva-modern, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.25em;
+}
+
+figure {
+	margin: 0;
+}
+
+footer {
+	font-family: minerva-modern, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ADC4B4;
+	background-color: #7A8B6F;
+	padding: 0.5em;
+}
+
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
